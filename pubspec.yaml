@@ -1,7 +1,10 @@
 name: iconsax
 description: iconsax for flutter.
-version: 0.0.5
+version: 0.0.6
 homepage: https://iconsax.io/
+repository: https://github.com/luisDanielRoviraContreras/flutter_iconsax
+issue_tracker: https://github.com/luisDanielRoviraContreras/flutter_iconsax/issues
+documentation: https://github.com/luisDanielRoviraContreras/flutter_iconsax
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
