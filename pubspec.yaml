@@ -21,7 +21,7 @@ flutter:
   fonts:
     - family: iconsax
       fonts:
-        - asset: lib/assets/fonts/iconsax.ttf
+        - asset: fonts/iconsax.ttf
   uses-material-design: true
   #   - family: Trajan Pro
   #     fonts:
