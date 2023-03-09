@@ -19,9 +19,15 @@ dev_dependencies:
 
 flutter:
   fonts:
-    - family: iconsax
+    - family: IconsaxBold
       fonts:
-        - asset: lib/assets/fonts/iconsax.ttf
+        - asset: fonts/IconsaxBold.ttf
+    - family: IconsaxBroken
+      fonts:
+        - asset: fonts/IconsaxBroken.ttf
+    - family: IconsaxLinear
+      fonts:
+        - asset: fonts/IconsaxLinear.ttf
   uses-material-design: true
   #   - family: Trajan Pro
   #     fonts:
