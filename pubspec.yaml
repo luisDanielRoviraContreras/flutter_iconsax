@@ -1,13 +1,14 @@
 name: iconsax
-description: iconsax for flutter.
-version: 0.0.6
+description: Iconsax for flutter (1000+ icons 6 diferent styles, total 6000+ icons).
+version: 0.0.9
 homepage: https://iconsax.io/
 repository: https://github.com/luisDanielRoviraContreras/flutter_iconsax
 issue_tracker: https://github.com/luisDanielRoviraContreras/flutter_iconsax/issues
 documentation: https://github.com/luisDanielRoviraContreras/flutter_iconsax
 
+
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -18,16 +19,12 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  uses-material-design: true
+  assets:
+    -  fonts/iconsax.ttf
+    
   fonts:
     - family: iconsax
       fonts:
-        - asset: lib/assets/fonts/iconsax.ttf
-  uses-material-design: true
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts in packages, see
-  # https://flutter.dev/custom-fonts/#from-packages
+        - asset: fonts/iconsax.ttf
+      
