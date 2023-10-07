@@ -1,5 +1,5 @@
 library iconsax;
 
-export 'package:iconsax/iconsax_bold.dart' show IconsaxBold;
-export 'package:iconsax/iconsax_broken.dart' show IconsaxBroken;
-export 'package:iconsax/iconsax_linear.dart' show IconsaxLinear;
+export 'package:iconsax/src/iconsax_bold.dart' show IconsaxBold;
+export 'package:iconsax/src/iconsax_broken.dart' show IconsaxBroken;
+export 'package:iconsax/src/iconsax_linear.dart' show IconsaxLinear;
